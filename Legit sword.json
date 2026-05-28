@@ -1,0 +1,731 @@
+{
+  "Halide": {
+    "settings": {
+      "Keybind": 344,
+      "mode": 0,
+      "primary color": [
+        0.101751596,
+        0.33507854,
+        0.3240841,
+        1.0
+      ],
+      "secondary color": [
+        0.439,
+        0.263,
+        1.0,
+        0.208
+      ],
+      "background color": [
+        0.078,
+        0.078,
+        0.078,
+        0.6963351
+      ],
+      "background color2": [
+        0.04,
+        0.04,
+        0.04,
+        1.0
+      ],
+      "background color3": [
+        0.04,
+        0.04,
+        0.04,
+        0.3
+      ],
+      "text color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "show other": true,
+      "show configs": true,
+      "show friends": true,
+      "show combat": true,
+      "show visual": true,
+      "show movement": true,
+      "show deprecated": false,
+      "show dev": false,
+      "fill speed": 0.453424323221,
+      "dropdown speed": 0.56123234012345,
+      "open animation": false,
+      "open speed": 5.32
+    }
+  },
+  "Self Destruct": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "replace mod": true
+    }
+  },
+  "Storage ESP": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "outlines": true,
+      "chest color": [
+        1.0,
+        0.75,
+        0.0,
+        1.0
+      ],
+      "shulker color": [
+        0.75,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "barrel color": [
+        0.6,
+        0.35,
+        0.05,
+        1.0
+      ],
+      "furnace color": [
+        1.0,
+        0.25,
+        0.0,
+        1.0
+      ],
+      "hopper color": [
+        0.55,
+        0.55,
+        0.55,
+        1.0
+      ]
+    }
+  },
+  "Freecam": {
+    "enabled": false,
+    "settings": {
+      "Keybind": 72,
+      "speed": {
+        "min": 0.3,
+        "max": 0.5
+      }
+    }
+  },
+  "Anti Debuff": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1
+    }
+  },
+  "Module List": {
+    "enabled": true,
+    "settings": {
+      "Keybind": -1,
+      "corner": 1,
+      "scale": 1.756476640701294,
+      "sort": 0,
+      "wave": true,
+      "wave speed": 4.921761628985405,
+      "wave spread": 1.0,
+      "animate": true,
+      "anim speed": 13.0
+    }
+  },
+  "Tab Gui": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "corner": 0
+    }
+  },
+  "Dynamic Island": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "corner": 1,
+      "scale": 1.0,
+      "anim speed": 145.0
+    }
+  },
+  "Gamma": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1
+    }
+  },
+  "Player Positions": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "corner": 0
+    }
+  },
+  "Keybind List": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1
+    }
+  },
+  "2D ESP": {
+    "enabled": true,
+    "settings": {
+      "Keybind": -1,
+      "thickness": 4.0,
+      "show health": true
+    }
+  },
+  "Player ESP": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "Mode": 0,
+      "homosexual": false,
+      "fill color": [
+        0.43570626,
+        0.9790576,
+        0.91931736,
+        0.35602093
+      ],
+      "outline color": [
+        0.14659643,
+        0.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "Trigger": {
+    "enabled": true,
+    "settings": {
+      "Keybind": 50,
+      "charge": {
+        "min": 100.0,
+        "max": 110.0
+      },
+      "charge mace": {
+        "min": 200.0,
+        "max": 200.0
+      },
+      "hit select": true,
+      "only crit": false,
+      "require fall for mace": true,
+      "weapons only": false,
+      "click simulation": true,
+      "work in screens": false,
+      "target lock": true,
+      "antibot": false,
+      "ignore shielding": true
+    }
+  },
+  "StunSlam": {
+    "enabled": false,
+    "settings": {
+      "Keybind": 345,
+      "cps": {
+        "min": 40.0,
+        "max": 44.0
+      },
+      "click simulation": true,
+      "antibot": true,
+      "work in screens": true
+    }
+  },
+  "Crystal Optimizer": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1
+    }
+  },
+  "Auto Crystal": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "only on RMB": true,
+      "place delay": {
+        "min": 112.0,
+        "max": 135.0
+      },
+      "break delay": {
+        "min": 107.0,
+        "max": 135.0
+      },
+      "stop on kill": true,
+      "fake hit": true,
+      "click simulation": true,
+      "dmg tick sync": false
+    }
+  },
+  "Hitcrystal Macro": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "obsidian swap delay": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "crystal swap delay": {
+        "min": 1.0,
+        "max": 14.0
+      },
+      "accuracy": 100.0,
+      "click simulation": true
+    }
+  },
+  "Shield Disabler": {
+    "enabled": true,
+    "settings": {
+      "Keybind": -1,
+      "Mode": 0,
+      "hit delay": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "switch delay": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "attack swap gap": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "switch back": true,
+      "hold axe": false,
+      "click simulation": true,
+      "work in gui": true
+    }
+  },
+  "Aim Assist": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "speed": {
+        "min": 0.05124352227896452,
+        "max": 0.07186528341844678
+      },
+      "fov": {
+        "min": 289.0,
+        "max": 360.0
+      },
+      "range": {
+        "min": 3.0,
+        "max": 12.0
+      },
+      "aim to": 2,
+      "smoothness": {
+        "min": 0.1,
+        "max": 0.6
+      },
+      "target lock": true,
+      "antibot": false
+    }
+  },
+  "Pot Macro": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "potion swap delay": {
+        "min": 50.0,
+        "max": 69.0
+      }
+    }
+  },
+  "Lag Range": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "max range": 6.0,
+      "min range": 2.0,
+      "blink time": {
+        "min": 575.0,
+        "max": 798.0
+      },
+      "target only (weird)": false
+    }
+  },
+  "Fake Lag": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "delay": {
+        "min": 706.0,
+        "max": 855.0
+      }
+    }
+  },
+  "Cart Macro": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "rail swap delay": {
+        "min": 25.0,
+        "max": 69.0
+      },
+      "cart swap delay": {
+        "min": 50.0,
+        "max": 69.0
+      },
+      "place delay": {
+        "min": 250.0,
+        "max": 260.0
+      }
+    }
+  },
+  "Hover Totem": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "delay": {
+        "min": 42.0,
+        "max": 63.0
+      },
+      "to offhand": true,
+      "to hotbar": true,
+      "hotbar slot(s)": [
+        5
+      ],
+      "swap on open": true,
+      "swap slot": [
+        5
+      ]
+    }
+  },
+  "Pot Refill": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "delay": {
+        "min": 100.0,
+        "max": 200.0
+      }
+    }
+  },
+  "Attribute Swap": {
+    "enabled": true,
+    "settings": {
+      "Keybind": -1,
+      "Mode": 0,
+      "Custom slot": [
+        0
+      ],
+      "swap back": true,
+      "swap back delay": 111.0,
+      "Accuracy": 100.0,
+      "Players only": true,
+      "Require falling": true,
+      "Ignore if shielding": true
+    }
+  },
+  "Anchor Macro": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "glowstone swap": {
+        "min": 14.0,
+        "max": 17.0
+      },
+      "glowstone place": {
+        "min": 9.0,
+        "max": 22.0
+      },
+      "detonate swap": {
+        "min": 14.0,
+        "max": 17.0
+      },
+      "detonate slot": [
+        5
+      ],
+      "charge only": false,
+      "check item use": true
+    }
+  },
+  "Bow Release": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "Charge ticks": {
+        "min": 3.0,
+        "max": 6.0
+      }
+    }
+  },
+  "Bed Macro": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "bed swap": {
+        "min": 50.0,
+        "max": 70.0
+      },
+      "bed place": {
+        "min": 50.0,
+        "max": 70.0
+      },
+      "detonate": {
+        "min": 50.0,
+        "max": 70.0
+      },
+      "detonate slot": [
+        5
+      ],
+      "instant": false,
+      "check item use": true
+    }
+  },
+  "Spear Lunge": {
+    "enabled": false,
+    "settings": {
+      "Keybind": 341,
+      "swap back delay": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "accuracy": 100.0,
+      "wait for charge": true,
+      "spam": true
+    }
+  },
+  "Jump Reset": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "Accuracy": 100.0,
+      "Players only": false
+    }
+  },
+  "Sprint Reset": {
+    "enabled": false,
+    "settings": {
+      "Keybind": 341,
+      "Key action": 2,
+      "duration": {
+        "min": 254.0,
+        "max": 360.0
+      },
+      "In air": false
+    }
+  },
+  "Double Hand": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "reaction time": {
+        "min": 0.0,
+        "max": 80.0
+      },
+      "check item": true,
+      "ignore in gui": true
+    }
+  },
+  "Double Anchor": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1
+    }
+  },
+  "Auto XP": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "only on RMB": true,
+      "speed": {
+        "min": 14.0,
+        "max": 29.0
+      },
+      "click simulation": true
+    }
+  },
+  "Prevent": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "echest": true,
+      "chest": true
+    }
+  },
+  "Blink": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1
+    }
+  },
+  "Blink2": {
+    "enabled": false,
+    "settings": {
+      "Keybind": 341
+    }
+  },
+  "Incognito": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "name": "Marlowww"
+    }
+  },
+  "Brand Spoofer": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "brand": "Vanilla"
+    }
+  },
+  "Auto Tool": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "Swap Delay": {
+        "min": 50.0,
+        "max": 150.0
+      }
+    }
+  },
+  "Chat Spammer": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "message": "Hello from Merkul client!",
+      "delay": {
+        "min": 50.0,
+        "max": 1000.0
+      },
+      "bypass": false
+    }
+  },
+  "Cheater Detector": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "show in chat": true,
+      "show in dynamic island": true
+    }
+  },
+  "AutoTotem": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "Mode": 1,
+      "Cooldown": {
+        "min": 0.0,
+        "max": 3.0
+      }
+    }
+  },
+  "Sprint": {
+    "enabled": true,
+    "settings": {
+      "Keybind": -1
+    }
+  },
+  "Nullbind": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1
+    }
+  },
+  "Eagle": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "edge distance": {
+        "min": 0.1,
+        "max": 0.2
+      },
+      "only while holding block": true
+    }
+  },
+  "Parkour": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "edge distance": {
+        "min": 0.1,
+        "max": 0.5056994825601578
+      }
+    }
+  },
+  "Pearl Macro": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "swap delay": {
+        "min": 50.0,
+        "max": 65.0
+      },
+      "throw delay": {
+        "min": 50.0,
+        "max": 65.0
+      },
+      "swap back delay": {
+        "min": 50.0,
+        "max": 65.0
+      },
+      "swap back": true
+    }
+  },
+  "Pearl Catcher": {
+    "enabled": false,
+    "settings": {
+      "Keybind": 52,
+      "swap delay": {
+        "min": 1.0,
+        "max": 10.0
+      },
+      "throw delay": {
+        "min": 1.0,
+        "max": 11.0
+      },
+      "swap back delay": {
+        "min": 1.0,
+        "max": 15.0
+      },
+      "swap back": true
+    }
+  },
+  "Firework Macro": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "swap delay": {
+        "min": 50.0,
+        "max": 65.0
+      },
+      "use delay": {
+        "min": 50.0,
+        "max": 65.0
+      },
+      "swap back delay": {
+        "min": 50.0,
+        "max": 65.0
+      },
+      "swap back": true,
+      "require elytra": true
+    }
+  },
+  "Tracers": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1
+    }
+  },
+  "LagBackDetector": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "say in chat (client sided)": true,
+      "show in dynamic island": true
+    }
+  },
+  "FakePlayer": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1
+    }
+  },
+  "Pathfinding Test": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1
+    }
+  },
+  "ClickSimTestModule": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1
+    }
+  }
+}
