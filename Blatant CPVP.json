@@ -210,7 +210,8 @@
       "work in screens": false,
       "target lock": false,
       "antibot": false,
-      "ignore shielding": true
+      "ignore shielding": true,
+      "friends": true
     }
   },
   "StunSlam": {
@@ -247,7 +248,7 @@
       },
       "stop on kill": false,
       "fake hit": false,
-      "click simulation": true,
+      "click simulation": false,
       "dmg tick sync": false
     }
   },
@@ -312,7 +313,8 @@
         "max": 0.6
       },
       "target lock": false,
-      "antibot": true
+      "antibot": true,
+      "friends": true
     }
   },
   "Pot Macro": {

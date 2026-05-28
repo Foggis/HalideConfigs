@@ -41,6 +41,7 @@
       ],
       "show other": true,
       "show configs": true,
+      "show friends": true,
       "show combat": true,
       "show visual": true,
       "show movement": true,
@@ -142,18 +143,6 @@
       "anim speed": 145.0
     }
   },
-  "Nametags": {
-    "enabled": false,
-    "settings": {
-      "Keybind": -1,
-      "scale": 1.0,
-      "show health": true,
-      "max distance": true,
-      "max dist": 64.0,
-      "min distance": false,
-      "min dist": 2.0
-    }
-  },
   "Gamma": {
     "enabled": true,
     "settings": {
@@ -173,6 +162,14 @@
       "Keybind": -1
     }
   },
+  "2D ESP": {
+    "enabled": true,
+    "settings": {
+      "Keybind": -1,
+      "thickness": 4.0,
+      "show health": true
+    }
+  },
   "Player ESP": {
     "enabled": false,
     "settings": {
@@ -190,25 +187,6 @@
         1.0,
         1.0,
         1.0
-      ],
-      "outlines": false
-    }
-  },
-  "Backtrack": {
-    "enabled": false,
-    "settings": {
-      "Keybind": -1,
-      "Duration": {
-        "min": 2488.0,
-        "max": 7151.0
-      },
-      "Flush On Damage": false,
-      "Flush On TP": false,
-      "Color": [
-        0.494,
-        0.761,
-        0.816,
-        1.0
       ]
     }
   },
@@ -216,20 +194,37 @@
     "enabled": false,
     "settings": {
       "Keybind": -1,
-      "hit delay": {
-        "min": 500.0,
-        "max": 540.0
+      "charge": {
+        "min": 100.0,
+        "max": 110.0
       },
-      "delay axe": {
-        "min": 840.0,
-        "max": 900.0
+      "charge mace": {
+        "min": 200.0,
+        "max": 200.0
       },
-      "smart crit\u0027s": true,
+      "hit select": true,
+      "only crit": true,
+      "require fall for mace": true,
       "weapons only": true,
       "click simulation": true,
       "work in screens": false,
       "target lock": false,
-      "antibot": false
+      "antibot": false,
+      "ignore shielding": true,
+      "friends": true
+    }
+  },
+  "StunSlam": {
+    "enabled": false,
+    "settings": {
+      "Keybind": 345,
+      "cps": {
+        "min": 40.0,
+        "max": 44.0
+      },
+      "click simulation": true,
+      "antibot": true,
+      "work in screens": true
     }
   },
   "Crystal Optimizer": {
@@ -253,7 +248,8 @@
       },
       "stop on kill": false,
       "fake hit": true,
-      "click simulation": true
+      "click simulation": false,
+      "dmg tick sync": false
     }
   },
   "Hitcrystal Macro": {
@@ -267,7 +263,9 @@
       "crystal swap delay": {
         "min": 1.0,
         "max": 6.0
-      }
+      },
+      "accuracy": 100.0,
+      "click simulation": true
     }
   },
   "Shield Disabler": {
@@ -310,12 +308,13 @@
         "max": 6.0
       },
       "aim to": 0,
-      "jitter": {
-        "min": 0.01,
-        "max": 0.05
+      "smoothness": {
+        "min": 0.1,
+        "max": 0.6
       },
       "target lock": false,
-      "antibot": true
+      "antibot": true,
+      "friends": true
     }
   },
   "Pot Macro": {
@@ -410,7 +409,8 @@
       "swap back delay": 160.0,
       "Accuracy": 50.0,
       "Players only": true,
-      "Require falling": true
+      "Require falling": true,
+      "Ignore if shielding": true
     }
   },
   "Anchor Macro": {
@@ -467,6 +467,27 @@
       ],
       "instant": false,
       "check item use": true
+    }
+  },
+  "Spear Lunge": {
+    "enabled": false,
+    "settings": {
+      "Keybind": 341,
+      "swap back delay": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "accuracy": 100.0,
+      "wait for charge": true,
+      "spam": true
+    }
+  },
+  "Jump Reset": {
+    "enabled": false,
+    "settings": {
+      "Keybind": -1,
+      "Accuracy": 100.0,
+      "Players only": false
     }
   },
   "Sprint Reset": {

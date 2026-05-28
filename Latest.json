@@ -4,15 +4,15 @@
       "Keybind": 344,
       "mode": 0,
       "primary color": [
-        0.494,
-        0.761,
         0.816,
+        0.494,
+        0.494,
         1.0
       ],
       "secondary color": [
-        0.439,
-        0.263,
         1.0,
+        0.0,
+        0.0,
         0.208
       ],
       "background color": [
@@ -64,7 +64,7 @@
     "enabled": false,
     "settings": {
       "Keybind": -1,
-      "outlines": false,
+      "outlines": true,
       "chest color": [
         1.0,
         0.75,
@@ -100,7 +100,7 @@
   "Freecam": {
     "enabled": false,
     "settings": {
-      "Keybind": -1,
+      "Keybind": 72,
       "speed": {
         "min": 0.3,
         "max": 0.5
@@ -108,7 +108,7 @@
     }
   },
   "Anti Debuff": {
-    "enabled": false,
+    "enabled": true,
     "settings": {
       "Keybind": -1
     }
@@ -118,13 +118,13 @@
     "settings": {
       "Keybind": -1,
       "corner": 1,
-      "scale": 1.4,
+      "scale": 1.756476640701294,
       "sort": 0,
       "wave": true,
-      "wave speed": 2.0,
-      "wave spread": 0.3,
+      "wave speed": 4.101036408543586,
+      "wave spread": 0.05,
       "animate": true,
-      "anim speed": 8.0
+      "anim speed": 13.0
     }
   },
   "Tab Gui": {
@@ -138,7 +138,7 @@
     "enabled": false,
     "settings": {
       "Keybind": -1,
-      "corner": 0,
+      "corner": 1,
       "scale": 1.0,
       "anim speed": 145.0
     }
@@ -173,27 +173,27 @@
   "Player ESP": {
     "enabled": false,
     "settings": {
-      "Keybind": 72,
+      "Keybind": -1,
       "Mode": 0,
-      "homosexual": true,
+      "homosexual": false,
       "fill color": [
-        0.0,
-        0.0,
-        0.0,
+        0.43570626,
+        0.9790576,
+        0.91931736,
         0.35602093
       ],
       "outline color": [
-        1.0,
-        1.0,
+        0.14659643,
+        0.0,
         1.0,
         1.0
       ]
     }
   },
   "Trigger": {
-    "enabled": false,
+    "enabled": true,
     "settings": {
-      "Keybind": -1,
+      "Keybind": 50,
       "charge": {
         "min": 100.0,
         "max": 107.0
@@ -205,12 +205,13 @@
       "hit select": true,
       "only crit": false,
       "require fall for mace": true,
-      "weapons only": true,
+      "weapons only": false,
       "click simulation": true,
       "work in screens": false,
-      "target lock": false,
+      "target lock": true,
       "antibot": false,
-      "ignore shielding": true
+      "ignore shielding": true,
+      "friends": true
     }
   },
   "StunSlam": {
@@ -227,25 +228,25 @@
     }
   },
   "Crystal Optimizer": {
-    "enabled": true,
+    "enabled": false,
     "settings": {
       "Keybind": -1
     }
   },
   "Auto Crystal": {
-    "enabled": true,
+    "enabled": false,
     "settings": {
       "Keybind": -1,
       "only on RMB": true,
       "place delay": {
-        "min": 133.0,
-        "max": 164.0
+        "min": 112.0,
+        "max": 135.0
       },
       "break delay": {
-        "min": 133.0,
-        "max": 182.0
+        "min": 107.0,
+        "max": 135.0
       },
-      "stop on kill": false,
+      "stop on kill": true,
       "fake hit": true,
       "click simulation": true,
       "dmg tick sync": false
@@ -257,11 +258,11 @@
       "Keybind": -1,
       "obsidian swap delay": {
         "min": 1.0,
-        "max": 11.0
+        "max": 1.0
       },
       "crystal swap delay": {
         "min": 1.0,
-        "max": 6.0
+        "max": 14.0
       },
       "accuracy": 100.0,
       "click simulation": true
@@ -270,8 +271,8 @@
   "Shield Disabler": {
     "enabled": true,
     "settings": {
-      "Keybind": -1,
-      "Mode": 0,
+      "Keybind": 345,
+      "Mode": 1,
       "hit delay": {
         "min": 1.0,
         "max": 1.0
@@ -282,7 +283,7 @@
       },
       "attack swap gap": {
         "min": 1.0,
-        "max": 19.0
+        "max": 1.0
       },
       "switch back": true,
       "hold axe": false,
@@ -295,24 +296,25 @@
     "settings": {
       "Keybind": -1,
       "speed": {
-        "min": 0.6611398875713348,
-        "max": 0.9367875844240188
+        "min": 0.10279793068766593,
+        "max": 0.2265284901112318
       },
       "fov": {
-        "min": 140.0,
-        "max": 160.0
+        "min": 289.0,
+        "max": 360.0
       },
       "range": {
         "min": 3.0,
-        "max": 6.0
+        "max": 12.0
       },
       "aim to": 0,
       "smoothness": {
         "min": 0.1,
         "max": 0.6
       },
-      "target lock": false,
-      "antibot": true
+      "target lock": true,
+      "antibot": false,
+      "friends": true
     }
   },
   "Pot Macro": {
@@ -329,11 +331,11 @@
     "enabled": false,
     "settings": {
       "Keybind": -1,
-      "max range": 8.0,
-      "min range": 3.0,
+      "max range": 6.0,
+      "min range": 2.0,
       "blink time": {
-        "min": 616.0,
-        "max": 868.0
+        "min": 575.0,
+        "max": 798.0
       },
       "target only (weird)": false
     }
@@ -343,8 +345,8 @@
     "settings": {
       "Keybind": -1,
       "delay": {
-        "min": 250.0,
-        "max": 280.0
+        "min": 706.0,
+        "max": 855.0
       }
     }
   },
@@ -367,12 +369,12 @@
     }
   },
   "Hover Totem": {
-    "enabled": true,
+    "enabled": false,
     "settings": {
       "Keybind": -1,
       "delay": {
-        "min": 53.0,
-        "max": 125.0
+        "min": 42.0,
+        "max": 63.0
       },
       "to offhand": true,
       "to hotbar": true,
@@ -396,7 +398,7 @@
     }
   },
   "Attribute Swap": {
-    "enabled": false,
+    "enabled": true,
     "settings": {
       "Keybind": -1,
       "Mode": 0,
@@ -404,28 +406,28 @@
         0
       ],
       "swap back": true,
-      "swap back delay": 160.0,
-      "Accuracy": 50.0,
-      "Players only": true,
+      "swap back delay": 52.0,
+      "Accuracy": 93.0,
+      "Players only": false,
       "Require falling": true,
       "Ignore if shielding": true
     }
   },
   "Anchor Macro": {
-    "enabled": true,
+    "enabled": false,
     "settings": {
       "Keybind": -1,
       "glowstone swap": {
-        "min": 6.0,
-        "max": 14.0
+        "min": 14.0,
+        "max": 17.0
       },
       "glowstone place": {
         "min": 9.0,
-        "max": 14.0
+        "max": 22.0
       },
       "detonate swap": {
-        "min": 1.0,
-        "max": 6.0
+        "min": 14.0,
+        "max": 17.0
       },
       "detonate slot": [
         5
@@ -494,8 +496,8 @@
       "Keybind": -1,
       "Key action": 2,
       "duration": {
-        "min": 247.0,
-        "max": 342.0
+        "min": 254.0,
+        "max": 360.0
       },
       "In air": false
     }
@@ -519,7 +521,7 @@
     }
   },
   "Auto XP": {
-    "enabled": false,
+    "enabled": true,
     "settings": {
       "Keybind": -1,
       "only on RMB": true,
@@ -531,7 +533,7 @@
     }
   },
   "Prevent": {
-    "enabled": false,
+    "enabled": true,
     "settings": {
       "Keybind": -1,
       "echest": true,
@@ -554,14 +556,14 @@
     "enabled": false,
     "settings": {
       "Keybind": -1,
-      "name": "TrueGamer"
+      "name": "Marlowww"
     }
   },
   "Brand Spoofer": {
-    "enabled": false,
+    "enabled": true,
     "settings": {
       "Keybind": -1,
-      "brand": "vanilla"
+      "brand": "Vanilla"
     }
   },
   "Auto Tool": {
@@ -587,7 +589,7 @@
     }
   },
   "Cheater Detector": {
-    "enabled": false,
+    "enabled": true,
     "settings": {
       "Keybind": -1,
       "show in chat": true,
@@ -598,7 +600,7 @@
     "enabled": false,
     "settings": {
       "Keybind": -1,
-      "Mode": 0,
+      "Mode": 1,
       "Cooldown": {
         "min": 0.0,
         "max": 3.0
@@ -634,7 +636,7 @@
       "Keybind": -1,
       "edge distance": {
         "min": 0.1,
-        "max": 0.3
+        "max": 0.5056994825601578
       }
     }
   },
@@ -660,18 +662,18 @@
   "Pearl Catcher": {
     "enabled": false,
     "settings": {
-      "Keybind": -1,
+      "Keybind": 52,
       "swap delay": {
-        "min": 50.0,
-        "max": 65.0
+        "min": 1.0,
+        "max": 1.0
       },
       "throw delay": {
-        "min": 50.0,
-        "max": 65.0
+        "min": 1.0,
+        "max": 1.0
       },
       "swap back delay": {
-        "min": 50.0,
-        "max": 65.0
+        "min": 1.0,
+        "max": 1.0
       },
       "swap back": true
     }

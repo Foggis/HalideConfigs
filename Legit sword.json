@@ -216,7 +216,7 @@
   "StunSlam": {
     "enabled": false,
     "settings": {
-      "Keybind": 345,
+      "Keybind": -1,
       "cps": {
         "min": 40.0,
         "max": 44.0
@@ -312,7 +312,8 @@
         "max": 0.6
       },
       "target lock": true,
-      "antibot": false
+      "antibot": false,
+      "friends": true
     }
   },
   "Pot Macro": {
@@ -470,14 +471,14 @@
   "Spear Lunge": {
     "enabled": false,
     "settings": {
-      "Keybind": 341,
+      "Keybind": -1,
       "swap back delay": {
         "min": 1.0,
         "max": 1.0
       },
       "accuracy": 100.0,
       "wait for charge": true,
-      "spam": true
+      "spam": false
     }
   },
   "Jump Reset": {
@@ -489,7 +490,7 @@
     }
   },
   "Sprint Reset": {
-    "enabled": false,
+    "enabled": true,
     "settings": {
       "Keybind": 341,
       "Key action": 2,
@@ -545,7 +546,7 @@
     }
   },
   "Blink2": {
-    "enabled": false,
+    "enabled": true,
     "settings": {
       "Keybind": 341
     }
