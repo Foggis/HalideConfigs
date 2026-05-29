@@ -214,17 +214,16 @@
       "friends": true
     }
   },
-  "StunSlam": {
-    "enabled": false,
+  "Shield Eater": {
+    "enabled": true,
     "settings": {
       "Keybind": 345,
       "cps": {
-        "min": 40.0,
-        "max": 44.0
+        "min": 175.0,
+        "max": 200.0
       },
-      "click simulation": true,
-      "antibot": true,
-      "work in screens": true
+      "require fall": true,
+      "swap to mace": true
     }
   },
   "Crystal Optimizer": {
@@ -429,6 +428,10 @@
         "min": 4.0,
         "max": 4.0
       },
+      "hold RMB delay": {
+        "min": 50.0,
+        "max": 100.0
+      },
       "detonate slot": [
         5
       ],
@@ -472,14 +475,14 @@
   "Spear Lunge": {
     "enabled": false,
     "settings": {
-      "Keybind": 341,
+      "Keybind": -1,
       "swap back delay": {
         "min": 1.0,
         "max": 1.0
       },
       "accuracy": 100.0,
       "wait for charge": true,
-      "spam": true
+      "spam": false
     }
   },
   "Jump Reset": {
@@ -515,9 +518,10 @@
     }
   },
   "Double Anchor": {
-    "enabled": false,
+    "enabled": true,
     "settings": {
-      "Keybind": -1
+      "Keybind": -1,
+      "limit to 2": false
     }
   },
   "Auto XP": {

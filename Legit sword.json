@@ -210,20 +210,22 @@
       "work in screens": false,
       "target lock": true,
       "antibot": false,
-      "ignore shielding": true
+      "ignore shielding": true,
+      "friends": true
     }
   },
-  "StunSlam": {
-    "enabled": false,
+  "Shield Eater": {
+    "enabled": true,
     "settings": {
-      "Keybind": -1,
+      "Keybind": 345,
       "cps": {
-        "min": 40.0,
-        "max": 44.0
+        "min": 12.0,
+        "max": 20.0
       },
       "click simulation": true,
-      "antibot": true,
-      "work in screens": true
+      "work in screens": false,
+      "require fall": false,
+      "swap to mace": false
     }
   },
   "Crystal Optimizer": {
@@ -490,7 +492,7 @@
     }
   },
   "Sprint Reset": {
-    "enabled": true,
+    "enabled": false,
     "settings": {
       "Keybind": 341,
       "Key action": 2,
@@ -546,7 +548,7 @@
     }
   },
   "Blink2": {
-    "enabled": true,
+    "enabled": false,
     "settings": {
       "Keybind": 341
     }

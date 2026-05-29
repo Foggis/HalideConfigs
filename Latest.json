@@ -191,7 +191,7 @@
     }
   },
   "Trigger": {
-    "enabled": true,
+    "enabled": false,
     "settings": {
       "Keybind": 50,
       "charge": {
@@ -214,17 +214,16 @@
       "friends": true
     }
   },
-  "StunSlam": {
-    "enabled": false,
+  "Shield Eater": {
+    "enabled": true,
     "settings": {
       "Keybind": 345,
       "cps": {
-        "min": 40.0,
-        "max": 44.0
+        "min": 12.0,
+        "max": 20.0
       },
-      "click simulation": true,
-      "antibot": true,
-      "work in screens": true
+      "require fall": false,
+      "swap to mace": false
     }
   },
   "Crystal Optimizer": {
@@ -269,10 +268,10 @@
     }
   },
   "Shield Disabler": {
-    "enabled": true,
+    "enabled": false,
     "settings": {
       "Keybind": 345,
-      "Mode": 1,
+      "Mode": 0,
       "hit delay": {
         "min": 1.0,
         "max": 1.0
@@ -429,6 +428,10 @@
         "min": 14.0,
         "max": 17.0
       },
+      "hold RMB delay": {
+        "min": 42.0,
+        "max": 81.0
+      },
       "detonate slot": [
         5
       ],
@@ -517,7 +520,8 @@
   "Double Anchor": {
     "enabled": false,
     "settings": {
-      "Keybind": -1
+      "Keybind": -1,
+      "limit to 2": false
     }
   },
   "Auto XP": {

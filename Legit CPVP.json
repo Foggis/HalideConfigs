@@ -214,17 +214,16 @@
       "friends": true
     }
   },
-  "StunSlam": {
+  "Shield Eater": {
     "enabled": false,
     "settings": {
-      "Keybind": 345,
+      "Keybind": -1,
       "cps": {
-        "min": 40.0,
-        "max": 44.0
+        "min": 12.0,
+        "max": 20.0
       },
-      "click simulation": true,
-      "antibot": true,
-      "work in screens": true
+      "require fall": false,
+      "swap to mace": false
     }
   },
   "Crystal Optimizer": {
@@ -418,16 +417,20 @@
     "settings": {
       "Keybind": -1,
       "glowstone swap": {
-        "min": 6.0,
-        "max": 14.0
+        "min": 35.0,
+        "max": 84.0
       },
       "glowstone place": {
-        "min": 9.0,
-        "max": 14.0
+        "min": 29.0,
+        "max": 48.0
       },
       "detonate swap": {
-        "min": 1.0,
-        "max": 6.0
+        "min": 22.0,
+        "max": 42.0
+      },
+      "hold RMB delay": {
+        "min": 42.0,
+        "max": 81.0
       },
       "detonate slot": [
         5
@@ -517,7 +520,8 @@
   "Double Anchor": {
     "enabled": false,
     "settings": {
-      "Keybind": -1
+      "Keybind": -1,
+      "limit to 2": false
     }
   },
   "Auto XP": {
