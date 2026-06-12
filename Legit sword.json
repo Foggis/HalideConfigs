@@ -53,6 +53,14 @@
       "open speed": 5.32
     }
   },
+  "MCF": {
+    "enabled": true,
+    "settings": {
+      "Keybind": -1,
+      "add": true,
+      "remove": true
+    }
+  },
   "Self Destruct": {
     "enabled": false,
     "settings": {
@@ -100,7 +108,7 @@
   "Freecam": {
     "enabled": false,
     "settings": {
-      "Keybind": 72,
+      "Keybind": -1,
       "speed": {
         "min": 0.3,
         "max": 0.5
@@ -196,7 +204,7 @@
       "Keybind": 50,
       "charge": {
         "min": 100.0,
-        "max": 110.0
+        "max": 104.0
       },
       "charge mace": {
         "min": 200.0,
@@ -215,15 +223,13 @@
     }
   },
   "Shield Eater": {
-    "enabled": true,
+    "enabled": false,
     "settings": {
-      "Keybind": 345,
+      "Keybind": -1,
       "cps": {
         "min": 12.0,
         "max": 20.0
       },
-      "click simulation": true,
-      "work in screens": false,
       "require fall": false,
       "swap to mace": false
     }
@@ -309,10 +315,6 @@
         "max": 12.0
       },
       "aim to": 2,
-      "smoothness": {
-        "min": 0.1,
-        "max": 0.6
-      },
       "target lock": true,
       "antibot": false,
       "friends": true
@@ -430,6 +432,10 @@
         "min": 14.0,
         "max": 17.0
       },
+      "hold RMB delay": {
+        "min": 42.0,
+        "max": 81.0
+      },
       "detonate slot": [
         5
       ],
@@ -494,7 +500,7 @@
   "Sprint Reset": {
     "enabled": false,
     "settings": {
-      "Keybind": 341,
+      "Keybind": -1,
       "Key action": 2,
       "duration": {
         "min": 254.0,
@@ -518,7 +524,8 @@
   "Double Anchor": {
     "enabled": false,
     "settings": {
-      "Keybind": -1
+      "Keybind": -1,
+      "limit to 2": true
     }
   },
   "Auto XP": {
@@ -550,14 +557,15 @@
   "Blink2": {
     "enabled": false,
     "settings": {
-      "Keybind": 341
+      "Keybind": -1
     }
   },
   "Incognito": {
     "enabled": false,
     "settings": {
       "Keybind": -1,
-      "name": "Marlowww"
+      "name": "Marlowww",
+      "hide friends": true
     }
   },
   "Brand Spoofer": {

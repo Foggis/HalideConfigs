@@ -53,6 +53,14 @@
       "open speed": 5.32
     }
   },
+  "MCF": {
+    "enabled": true,
+    "settings": {
+      "Keybind": -1,
+      "add": true,
+      "remove": true
+    }
+  },
   "Self Destruct": {
     "enabled": false,
     "settings": {
@@ -135,7 +143,7 @@
     }
   },
   "Dynamic Island": {
-    "enabled": false,
+    "enabled": true,
     "settings": {
       "Keybind": -1,
       "corner": 1,
@@ -157,7 +165,7 @@
     }
   },
   "Keybind List": {
-    "enabled": false,
+    "enabled": true,
     "settings": {
       "Keybind": -1
     }
@@ -191,7 +199,7 @@
     }
   },
   "Trigger": {
-    "enabled": false,
+    "enabled": true,
     "settings": {
       "Keybind": 50,
       "charge": {
@@ -209,22 +217,19 @@
       "click simulation": true,
       "work in screens": false,
       "target lock": true,
-      "antibot": false,
+      "antibot": true,
       "ignore shielding": true,
       "friends": true
     }
   },
   "Shield Eater": {
-    "enabled": true,
+    "enabled": false,
     "settings": {
       "Keybind": 345,
       "cps": {
         "min": 12.0,
         "max": 20.0
       },
-      "click simulation": true,
-      "antibot": true,
-      "work in screens": false,
       "require fall": false,
       "swap to mace": false
     }
@@ -271,10 +276,10 @@
     }
   },
   "Shield Disabler": {
-    "enabled": false,
+    "enabled": true,
     "settings": {
       "Keybind": 345,
-      "Mode": 0,
+      "Mode": 1,
       "hit delay": {
         "min": 1.0,
         "max": 1.0
@@ -310,10 +315,6 @@
         "max": 12.0
       },
       "aim to": 0,
-      "smoothness": {
-        "min": 0.1,
-        "max": 0.6
-      },
       "target lock": true,
       "antibot": false,
       "friends": true
@@ -409,7 +410,7 @@
       ],
       "swap back": true,
       "swap back delay": 52.0,
-      "Accuracy": 93.0,
+      "Accuracy": 100.0,
       "Players only": false,
       "Require falling": true,
       "Ignore if shielding": true
@@ -430,6 +431,10 @@
       "detonate swap": {
         "min": 14.0,
         "max": 17.0
+      },
+      "hold RMB delay": {
+        "min": 50.0,
+        "max": 100.0
       },
       "detonate slot": [
         5
@@ -519,7 +524,8 @@
   "Double Anchor": {
     "enabled": false,
     "settings": {
-      "Keybind": -1
+      "Keybind": -1,
+      "limit to 2": false
     }
   },
   "Auto XP": {
@@ -558,7 +564,8 @@
     "enabled": false,
     "settings": {
       "Keybind": -1,
-      "name": "Marlowww"
+      "name": "Marlowww",
+      "hide friends": true
     }
   },
   "Brand Spoofer": {

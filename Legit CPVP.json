@@ -53,6 +53,14 @@
       "open speed": 5.32
     }
   },
+  "MCF": {
+    "enabled": true,
+    "settings": {
+      "Keybind": -1,
+      "add": true,
+      "remove": true
+    }
+  },
   "Self Destruct": {
     "enabled": false,
     "settings": {
@@ -163,7 +171,7 @@
     }
   },
   "2D ESP": {
-    "enabled": true,
+    "enabled": false,
     "settings": {
       "Keybind": -1,
       "thickness": 4.0,
@@ -173,7 +181,7 @@
   "Player ESP": {
     "enabled": false,
     "settings": {
-      "Keybind": 72,
+      "Keybind": -1,
       "Mode": 0,
       "homosexual": true,
       "fill color": [
@@ -238,12 +246,12 @@
       "Keybind": -1,
       "only on RMB": true,
       "place delay": {
-        "min": 133.0,
-        "max": 164.0
+        "min": 135.0,
+        "max": 143.0
       },
       "break delay": {
-        "min": 133.0,
-        "max": 182.0
+        "min": 117.0,
+        "max": 146.0
       },
       "stop on kill": false,
       "fake hit": true,
@@ -307,10 +315,6 @@
         "max": 6.0
       },
       "aim to": 0,
-      "smoothness": {
-        "min": 0.1,
-        "max": 0.6
-      },
       "target lock": false,
       "antibot": true,
       "friends": true
@@ -372,8 +376,8 @@
     "settings": {
       "Keybind": -1,
       "delay": {
-        "min": 53.0,
-        "max": 125.0
+        "min": 130.0,
+        "max": 167.0
       },
       "to offhand": true,
       "to hotbar": true,
@@ -417,20 +421,20 @@
     "settings": {
       "Keybind": -1,
       "glowstone swap": {
-        "min": 35.0,
-        "max": 84.0
+        "min": 9.0,
+        "max": 24.0
       },
       "glowstone place": {
-        "min": 29.0,
-        "max": 48.0
+        "min": 6.0,
+        "max": 32.0
       },
       "detonate swap": {
-        "min": 22.0,
-        "max": 42.0
+        "min": 4.0,
+        "max": 29.0
       },
       "hold RMB delay": {
-        "min": 42.0,
-        "max": 81.0
+        "min": 9.0,
+        "max": 50.0
       },
       "detonate slot": [
         5
@@ -475,7 +479,7 @@
   "Spear Lunge": {
     "enabled": false,
     "settings": {
-      "Keybind": 341,
+      "Keybind": -1,
       "swap back delay": {
         "min": 1.0,
         "max": 1.0
@@ -520,18 +524,18 @@
   "Double Anchor": {
     "enabled": false,
     "settings": {
-      "Keybind": -1,
-      "limit to 2": false
+      "Keybind": 341,
+      "limit to 2": true
     }
   },
   "Auto XP": {
-    "enabled": false,
+    "enabled": true,
     "settings": {
       "Keybind": -1,
       "only on RMB": true,
       "speed": {
-        "min": 14.0,
-        "max": 29.0
+        "min": 44.0,
+        "max": 65.0
       },
       "click simulation": true
     }
@@ -547,7 +551,7 @@
   "Blink": {
     "enabled": false,
     "settings": {
-      "Keybind": -1
+      "Keybind": 345
     }
   },
   "Blink2": {
@@ -560,7 +564,8 @@
     "enabled": false,
     "settings": {
       "Keybind": -1,
-      "name": "TrueGamer"
+      "name": "TrueGamer",
+      "hide friends": true
     }
   },
   "Brand Spoofer": {
